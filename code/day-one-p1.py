@@ -1,6 +1,6 @@
-with open("inputs/day-one.txt", "r") as f:
-    inp = f.read().splitlines()
-inp = list(map(int, inp))
+from .utils import read_file
+
+inp = read_file(day='one', map_func=int)
 
 increase = 0
 for index, i in enumerate(inp):
