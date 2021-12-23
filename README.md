@@ -6,7 +6,7 @@ Started @ December 22 lmao
 
 ### for js
 ```
-node day-___.js
+node code/day-___.js
 ```
 
 ### for py
